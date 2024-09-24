@@ -27,6 +27,7 @@ formAgregar.addEventListener('submit', function(event) {
     const producto = {
         nombre,
         concentracion,
+        LOTE,
         laboratorio,
         invima,
         forma,
@@ -59,6 +60,7 @@ function actualizarInventario() {
         fila.innerHTML = `
             <td>${producto.nombre}</td>
             <td>${producto.concentracion}</td>
+            <td>${producto.LOTE}</td>
             <td>${producto.laboratorio}</td>
             <td>${producto.invima}</td>
             <td>${producto.forma}</td>
