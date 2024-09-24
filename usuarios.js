@@ -1,6 +1,6 @@
 const usuarios = [
-    { usuario: 'quimico', password: '1234', rol: 'admin' },
-    { usuario: 'auxiliar', password: '1234', rol: 'inventario' },
+    { usuario: 'quimico', password: 'hans1', rol: 'admin' },
+    { usuario: 'auxiliar', password: '221099', rol: 'inventario' },
     { usuario: 'practicante', password: '1234', rol: 'dispensacion' },
 ];
 
