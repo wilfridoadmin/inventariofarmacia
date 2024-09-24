@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Inventario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión de Inventario - Farmacia</h1>
+        <nav>
+            <a href="dispensacion.html">Dispensación</a>
+            <a href="index.html">Cerrar Sesión</a>
+        </nav>
+    </header>
+
+    <section id="agregar-producto">
+        <h2>Agregar Medicamento</h2>
+        <form id="form-agregar">
+            <input type="text" id="nombre" placeholder="Nombre del medicamento" required>
+            <input type="text" id="concentracion" placeholder="Concentración" required>
+            <input type="text" id="laboratorio" placeholder="Laboratorio" required>
+            <input type="text" id="invima" placeholder="Registro INVIMA" required>
+            <input type="text" id="forma" placeholder="Forma farmacéutica" required>
+            <input type="date" id="vencimiento" required>
+            <input type="number" id="cantidad" placeholder="Cantidad" required>
+            <button type="submit">Agregar Producto</button>
+        </form>
+    </section>
+
+    <section id="inventario">
+        <h2>Inventario Actual</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Concentración</th>
+                    <th>Laboratorio</th>
+                    <th>INVIMA</th>
+                    <th>Forma Farmacéutica</th>
+                    <th>Fecha de Vencimiento</th>
+                    <th>Cantidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="lista-productos">
+                <!-- Aquí aparecerán los productos -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
