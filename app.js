@@ -16,6 +16,7 @@ formAgregar.addEventListener('submit', function(event) {
     // Capturamos los datos del formulario
     const nombre = document.getElementById('nombre').value;
     const concentracion = document.getElementById('concentracion').value;
+    const LOTE = document.getElementById('LOTE').value;
     const laboratorio = document.getElementById('laboratorio').value;
     const invima = document.getElementById('invima').value;
     const forma = document.getElementById('forma').value;
